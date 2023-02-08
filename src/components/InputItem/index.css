@@ -1,0 +1,66 @@
+.list-item-container {
+  display: flex;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Roboto;
+  border-radius: 5px;
+  list-style-type: none;
+  border: 2px solid aliceblue;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+  margin: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .list-item-container {
+    margin-right: 15px;
+  }
+}
+.initial-section {
+  color: #ffffff;
+  background-color: #f59e0b;
+  border-radius: 100px;
+  font-family: Roboto;
+  padding: 30px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.para {
+  font-size: 14px;
+}
+.stars {
+  width: 150px;
+}
+.button-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px none;
+  padding: 10px;
+}
+
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
